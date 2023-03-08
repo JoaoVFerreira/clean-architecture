@@ -1,12 +1,12 @@
 import NormalFareCalculatorHandler from "./NormalFareCalculatorHandler";
-import OverNightSundayFareCalculator from "../calculators/OverNightSundayFareCalculator";
+import OverNightFareCalculatorHandler from "./OverNightFareCalculatorHandler";
 import OvernightSundayFareCalculatorHandler from "./OverNightSundayFareCalculatorHandler";
 import SpecialDayFareCalculatorHandler from "./SpecialDayFareCalculatorHandler";
 import SundayFareCalculatorHandler from "./SundayFareCalculatorHandler";
 
 export {
   NormalFareCalculatorHandler,
-  OverNightSundayFareCalculator,
+  OverNightFareCalculatorHandler,
   OvernightSundayFareCalculatorHandler,
   SpecialDayFareCalculatorHandler,
   SundayFareCalculatorHandler
