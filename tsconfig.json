@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "module": "commonjs",
-    "lib": ["es6", "ESNext"],
-    "allowJs": true,
-    "outDir": "./dist",
-    "rootDirs": ["./src", "./__tests__"],
-    "noEmitOnError": true,
-    "removeComments": true,
-    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "target": "ES2017" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "src",
+    "outDir": "./dist" /* Specify the root folder within your source files. */,
+    "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "strict": true /* Enable all strict type-checking options. */,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["*"]
+    },
+    "baseUrl": "src"
   },
   "include": [
     "src",

@@ -1,7 +1,5 @@
 class Order {
-  constructor() {
-
-  }
+  constructor() {}
 }
 
 export { Order };
