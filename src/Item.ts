@@ -1,4 +1,4 @@
-import { Volume } from "./volume";
+import { Volume } from "./Volume";
 
 class Item {
   constructor(private distance: number, private volume: Volume, private density: number) {

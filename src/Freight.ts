@@ -1,5 +1,5 @@
-import { Density } from "./density";
-import { Volume } from "./volume";
+import { Density } from "./Density";
+import { Volume } from "./Volume";
 
 const ONE_THOUSAND_KM = 1000
 

@@ -1,4 +1,4 @@
-import { Volume } from './volume';
+import { Volume } from './Volume';
 
 class Density {
   constructor(private readonly weight: number, private readonly volume: Volume) {
