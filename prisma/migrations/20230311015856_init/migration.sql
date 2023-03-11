@@ -13,7 +13,7 @@ CREATE TABLE "Coupon" (
     "id" SERIAL NOT NULL,
     "code" TEXT NOT NULL,
     "percentage" INTEGER NOT NULL,
-    "expire_date" TIMESTAMP NOT NULL
+    "expire_date" TIMESTAMP NOT NULL,
 
     CONSTRAINT "Coupon_pkey" PRIMARY KEY ("id")
 );
@@ -27,3 +27,4 @@ INSERT INTO "Product" ("id_product", "description", "price") VALUES (2, 'B', 500
 INSERT INTO "Product" ("id_product", "description", "price") VALUES (3, 'C', 30);
 
 INSERT INTO "Coupon" ("code", "percentage", "expire_date") VALUES ('VALE20', 20, '2022-12-01T10:00:00');
+INSERT INTO "Coupon" ("code", "percentage", "expire_date") VALUES ('VALE20_EXPIRED', 20, '2022-10-01T10:00:00');
