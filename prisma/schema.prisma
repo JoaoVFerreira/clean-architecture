@@ -18,4 +18,5 @@ model Coupon {
   id           Int     @default(autoincrement()) @id
   code         String  @unique
   percentage   Int
+  expire_date  DateTime
 }
