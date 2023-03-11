@@ -12,6 +12,11 @@ model Product {
   id_product  Int     @unique
   description String
   price       Int
+  width       Int
+	height      Int
+	length      Int
+	weight      Int
+	currency    String
 }
 
 model Coupon {
